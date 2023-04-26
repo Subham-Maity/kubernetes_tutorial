@@ -55,7 +55,7 @@ Let's take a look at some key components of Kubernetes and how they work togethe
 ### Control Plane 🧠
 
 The control plane is the set of components that manage the overall state of the cluster. It includes:
-
+> Cluster is a set of nodes that run containerized applications. Each cluster has a master node and one or more worker nodes.
 - **API Server**: The main entry point for all administrative tasks.
 - **etcd**: A distributed key-value store that stores the configuration data of the cluster.
 - **Controller Manager**: Manages the core control loops in Kubernetes.
